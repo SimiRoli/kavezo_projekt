@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body{
+    background-color: #FFE5B4;
+}
+nav{
+    background-color: #481F01;
+    padding: 15px;
+}
+
+nav a{
+    color:white;
+    margin: 15px;
+}
+
+nav a:hover{
+    color:white;
+    text-decoration: none;
+
+}
+
+nav a :first-child{
+    font-size:1.5em;
+}
+.banner{
+    background-image: url(//kavezo_projekt/pics/Banner.png);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+
