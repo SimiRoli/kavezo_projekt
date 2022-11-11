@@ -8,6 +8,7 @@ body{
 nav{
     background-color: #481f01;
     padding: 15px;
+    position: fixed;
 }
 
 nav a{
@@ -22,4 +23,11 @@ nav a:hover{
 
 nav a:first-child{
     font-size: 1.5rem;
+}
+
+.banner {
+    background-image: url(/pics/kávés\ fincsa\ mincsa\ \(1\).png);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
 }
