@@ -1,33 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
-body{
+body {
     background-color: #ffe5b4;
+}
+
+h1 {
     font-family: 'Inter', sans-serif;
 }
 
-nav{
+nav {
     background-color: #481f01;
     padding: 15px;
     position: fixed;
 }
 
-nav a{
+nav a {
     color: #481f01;
     margin: 15px;
 }
 
-nav a:hover{
+nav a:hover {
     color: white;
     text-decoration: none;
 }
 
-nav a:first-child{
+nav a:first-child {
     font-size: 1.5rem;
 }
 
-.banner {
-    background-image: url(/pics/kávés\ fincsa\ mincsa\ \(1\).png);
-    background-position: center center;
-    background-size: cover;
-    height: 400px;
+nav a:first-child img {
+    width: 40px;
+}
+
+.kave {
+    color: #481f01;
+    background-color: #481f01;
+    border: 1px solid #481f01;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.kave:hover {
+    box-shadow: 0px 0px 5px #481f01;
+}
+
+.kave h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
 }
