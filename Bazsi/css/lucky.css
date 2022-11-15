@@ -9,46 +9,43 @@ h1 {
 
 nav {
     background-color: #481f01;
-    padding: 15px;
-    position: fixed;
-}
-
-nav a {
-    color: #481f01;
-    margin: 15px;
-}
-
-nav a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-nav a:first-child {
-    font-size: 1.5rem;
 }
 
 nav a:first-child img {
     width: 40px;
 }
 
-.kave {
-    color: #481f01;
+.banner {
+    background-image: url(/pics/slide1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+
+.card {
+    color: #ffffff;
     background-color: #481f01;
-    border: 1px solid #481f01;
-    border-radius: 4px;
-    margin-bottom: 1rem;
+    border: 1px solid #481f01
 }
 
-.kave:hover {
-    box-shadow: 0px 0px 5px #481f01;
+.card:hover {
+    box-shadow: 0px 0px 5px #0000;
 }
 
-.kave h2 {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+h5 {
     text-align: center;
-    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #481f01;
+    color: #ffffff;
+}
+
+footer li {
+    list-style-type: none;
 }
