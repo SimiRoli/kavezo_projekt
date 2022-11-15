@@ -3,6 +3,9 @@
 body{
     background-color: #FFE5B4;
     font-family: 'Inter', sans-serif;
+    background-image: url(../pics/Névtelen1.jpg);
+    background-repeat: no-repeat;
+    object-fit: fill;
 }
 nav{
     background-color: #481F01;
@@ -23,9 +26,15 @@ nav a:hover{
 nav a:first-child{
     font-size: 1.5em;
 }
+<<<<<<< HEAD
 .banner{
     background-image: url();
+=======
+.kep{
+>>>>>>> ad13aa5c8f16ca68f1240ab8012c251412c92b56
     background-position: center center;
-    background-size: cover;
-    height: 400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
 }
+
