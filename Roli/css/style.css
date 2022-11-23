@@ -6,9 +6,27 @@ body{
     font-family: 'Inter', sans-serif;
     object-fit: fill;
     overflow: hidden;
-    background-image:url(../pics/test.png);
+
 
 }
+nav a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+}
+
+#home{
+    height: 100vh;
+    background-image: url(../pics/test.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    
+  }
 
 #home .intro{
     color: white;
@@ -16,21 +34,13 @@ body{
 }
 nav{
     background-color: #481F01;
-}
-nav a{
-    color: #481F01;
-    margin: 15px;
-    
+
 }
 
-nav a:hover{
-    color: white;
-    text-decoration: none;
+nav a:first-child img {
+    width: 40px;
 }
 
-nav a:first-child{
-    font-size: 1.5em;
-}
 .banner{
     background-position: center center;
     background-size:cover;
@@ -38,10 +48,5 @@ nav a:first-child{
     object-fit: contain;
 }
 
-.cigany{
-    position: static;
-    width: 1440px;
-    height: auto;
-}
 
 
