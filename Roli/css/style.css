@@ -11,7 +11,6 @@ body{
 }
 nav a {
     font-family: 'Inter', sans-serif;
-    font-weight: 400px;
 }
 
 #home{
@@ -22,15 +21,17 @@ nav a {
     background-size: cover;
 }
 
+#home .intro .col-md-8{
+    background-color: rgba(0,0,0,0.4);
+}
+#home .intro{
+    color: white;  
+    height: 100vh;     
+}
 img {
     width: 100%;
     height: auto;
     
-  }
-
-#home .intro{
-    color: white;
-    height: 100vh;
 }
 nav{
     background-color: #481F01;
