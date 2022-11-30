@@ -17,7 +17,7 @@ nav a:first-child img {
 }
 
 .banner {
-    background-image: url(/pics/slide1.jpg);
+    background-image: url(../pics/slide1.jpg);
     background-position: center center;
     background-size: cover;
     height: 400px;
