@@ -48,6 +48,8 @@ nav a:first-child img {
     background-repeat: no-repeat;
     object-fit: contain;
 }
-
+h1{
+    text-align: center;
+}
 
 
