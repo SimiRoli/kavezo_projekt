@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
+body:not(#home),
+.modal-body {
+    background-color: #ffe5b4;
+}
 
 body{
     background-color: #FFE5B4;
@@ -9,10 +12,12 @@ body{
 
 
 }
-nav a {
-    font-family: 'Inter', sans-serif;
+.navbar-brand{
+    margin-left: 5px;
 }
-
+.navbar-toggler{
+    margin-right: 5px;
+}
 #home{
     height: 100vh;
     background-image: url(../pics/test.png);
