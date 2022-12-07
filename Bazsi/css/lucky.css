@@ -39,6 +39,18 @@ nav a:first-child img {
     width: 40px;
 }
 
+.navbar-brand{
+    margin-left: 5px;
+}
+
+.navbar-toggler{
+    margin-right: 5px;
+}
+
+nav a{
+    margin-left: 5px;
+}
+
 .banner {
     background-image: url();
     background-position: center center;
@@ -105,4 +117,19 @@ footer li>img {
 
 p.szerzo {
     text-align: right;
+}
+
+.box{
+    border: 1px solid #481f01;
+}
+
+.box h2{
+    font-size: 1.5rem;
+    background-color: #481f01;
+    color: #fff;
+    padding: .5rem;
+}
+
+.box span.badge{
+    margin: .25rem;
 }

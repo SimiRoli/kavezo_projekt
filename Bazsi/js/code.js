@@ -8,3 +8,10 @@ function feliratkozas(){
         alert("Kérem töltse ki az e-mail mezőt! ")
     }
 }
+
+function hozzaszolas(){
+    let nev = document.getElementById('nev').value;
+    let uzenet = document.getElementById('szoveg').value;
+    let kommentek = document.getElementById('kommentek');
+    kommentek.innerHTML += '<p><span class="badge badge success">' +nev+ '</span>' +uzenet+ '</p>'
+}
