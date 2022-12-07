@@ -117,6 +117,7 @@ footer li>img {
 
 p.szerzo {
     text-align: right;
+    font-family: 'Inter', sans-serif;
 }
 
 .box{
@@ -124,12 +125,13 @@ p.szerzo {
 }
 
 .box h2{
+    font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     background-color: #481f01;
     color: #fff;
     padding: .5rem;
 }
 
-.box span.badge{
+.box span.btn{
     margin: .25rem;
 }
