@@ -4,14 +4,6 @@ body:not(#home),
     background-color: #ffe5b4;
 }
 
-body{
-    background-color: #FFE5B4;
-    font-family: 'Inter', sans-serif;
-    object-fit: fill;
-    overflow: hidden;
-
-
-}
 .navbar-brand{
     margin-left: 5px;
 }
@@ -47,12 +39,7 @@ nav a:first-child img {
     width: 40px;
 }
 
-.banner{
-    background-position: center center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    object-fit: contain;
-}
+
 h1{
     text-align: center;
 }
