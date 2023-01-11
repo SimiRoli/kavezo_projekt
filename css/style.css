@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
-
-body{
-    background-color: #FFE5B4;
-    font-family: 'Inter', sans-serif;
-    object-fit: fill;
-    overflow: hidden;
-
-
+body:not(#home),
+.modal-body {
+    background-color: #ffe5b4;
 }
+
 .navbar-brand{
     margin-left: 5px;
 }
@@ -17,7 +12,7 @@ body{
 }
 #home{
     height: 100vh;
-    background-image: url(../pics/test.png);
+    background-image: url(../Roli/pics/test.png);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -44,12 +39,7 @@ nav a:first-child img {
     width: 40px;
 }
 
-.banner{
-    background-position: center center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    object-fit: contain;
-}
+
 h1{
     text-align: center;
 }

@@ -28,6 +28,13 @@ body:not(#home),
     color: #481f01;
 }
 
+.navbar-brand{
+    margin-left: 5px;
+}
+
+.navbar-toggler{
+    margin-right: 5px;
+}
 
 /*Menü*/
 
