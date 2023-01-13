@@ -9,7 +9,7 @@ body:not(#home),
 
 #home {
     height: 100vh;
-    background-image: url();
+    background-image: url(../../Roli/fooldal.html);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -36,7 +36,7 @@ body:not(#home),
     margin-right: 5px;
 }
 
-
+/*Menü*/
 
 nav {
     background-color: #481f01;
@@ -44,6 +44,18 @@ nav {
 
 nav a:first-child img {
     width: 40px;
+}
+
+.navbar-brand{
+    margin-left: 5px;
+}
+
+.navbar-toggler{
+    margin-right: 5px;
+}
+
+nav a{
+    margin-left: 5px;
 }
 
 .banner {
@@ -61,7 +73,7 @@ h1 {
 }
 
 .card {
-    color: #481f01;
+    color: #ffffff;
     background-color: #481f01;
     border: 1px solid #481f01;
 }
@@ -80,11 +92,11 @@ a:hover {
     text-decoration: none;
 }
 
-#napiajanlat {
+#napiajanlat{
     width: 40px;
     position: absolute;
     top: 10px;
-    right: 20px;
+    right: 20px;    
 }
 
 .footer {
@@ -102,7 +114,7 @@ footer li>img {
 }
 
 .modal-content {
-    background-color: #ffffff;
+    background-color: #ffe5b4;
 }
 
 .blog-img {
@@ -112,4 +124,21 @@ footer li>img {
 
 p.szerzo {
     text-align: right;
+    font-family: 'Inter', sans-serif;
+}
+
+.box{
+    border: 1px solid #481f01;
+}
+
+.box h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    background-color: #481f01;
+    color: #fff;
+    padding: .5rem;
+}
+
+.box span.btn{
+    margin: .25rem;
 }
